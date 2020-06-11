@@ -1,5 +1,5 @@
 {
-BO2_TOOL : 'flsae',
+BO2_TOOL : 'false',
 BO1_TOOL : 'true',
 tomb_raider_tool : 'true',
 the_Evil_within_tool : 'true',
