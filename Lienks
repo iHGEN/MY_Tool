@@ -1,11 +1,11 @@
 {
-BO2_TOOL : 'false',
+BO2_TOOL : 'true',
 BO1_TOOL : 'true',
 tomb_raider_tool : 'true',
 the_Evil_within_tool : 'true',
 the_last_of_us_tool : 'true',
 Library_tool : 'true',
-Downloadserver1_link : 'true',
+Downloadserver1_link : 'flase',
 Downloadserver2_link : 'true',
 BO2_EBOOT : 'http://www.mediafire.com/file/jxpxxmq368owwda/BO2_EBOOT.rar/file',
 B01_EBOOT : 'http://www.mediafire.com/file/m8zpy55b9fl13ui/BO1.rar/file',
