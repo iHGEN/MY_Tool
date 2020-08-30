@@ -1,6 +1,6 @@
 {
 BO2_TOOL : 'true',
-BO1_TOOL : 'true',
+BO1_TOOL : 'false',
 BO3_ZM : 'true',
 tomb_raider_tool : 'true',
 the_Evil_within_tool : 'true',
