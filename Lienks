@@ -2,7 +2,7 @@
 BO2_TOOL : 'true',
 BO1_TOOL : 'true',
 BO3_ZM : 'true',
-txt : 'true',
+txt : 'false',
 tomb_raider_tool : 'true',
 the_Evil_within_tool : 'true',
 the_last_of_us_tool : 'false',
