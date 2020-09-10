@@ -1,5 +1,5 @@
 {
-BO2_TOOL : 'true',
+BO2_TOOL : 'false',
 BO1_TOOL : 'true',
 BO3_ZM : 'true',
 txt : 'true',
