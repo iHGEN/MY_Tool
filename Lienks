@@ -52,9 +52,9 @@ Downloadserver2 : 'https://raw.githubusercontent.com/iHGEN/v2/master/Private%20T
 BO1_ELF : 'http://www.mediafire.com/file/vwlovy0s7qttmlt/Bo1_ELF.rar/file',
 BO2_ELF : 'http://www.mediafire.com/file/id5wxhj2p63h65r/Bo2_ELF.rar/file',
 BO3_ELF : 'http://www.mediafire.com/file/znz0wjrdiqlq1in/BO3_ELF.rar/file',
-Crashps2 : '',
-Ultimate_SpiderManps2 : '',
-Teenage_Mutant_Ninja_Turtlesps2 : '',
-Tarzan_Untamedps2 : '',
-Mortal_Kombat_Shaolin_Monksps2 : ''
+Crashps2 : 'http://www.mediafire.com/file/xvpxfulyqk2valb/Crash+Twinsanity+(PAL)+(Es,Fr,De,En,It).7z/file',
+Ultimate_SpiderManps2 : 'http://www.mediafire.com/file/6eu8chhohnt2n06/Ultimate+Spider-Man+(PAL)+(Es,Fr,De,En,It).7z/file',
+Teenage_Mutant_Ninja_Turtlesps2 : 'http://www.mediafire.com/file/k8zc9piaesw9ry8/Teenage+Mutant+Ninja+Turtles+[NTSC].rar/file',
+Tarzan_Untamedps2 : 'http://www.mediafire.com/file/oymsrdri1pho9ay/Tarzan+Untamed+%28PAL%29+%28Es%2CFr%2CDe%2CEn%2CIt%29.rar/file',
+Mortal_Kombat_Shaolin_Monksps2 : 'http://www.mediafire.com/file/c30gcpkpicqs3vt/Mortal_Kombat_Shaolin_Monks_PS2.rar/file'
 }
