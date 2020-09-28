@@ -2,6 +2,7 @@
 BO2_TOOL : 'true',
 BO1_TOOL : 'true',
 BO3_ZM : 'true',
+singup : 'false',
 txt : 'true',
 webman : 'true',
 tomb_raider_tool : 'true',
