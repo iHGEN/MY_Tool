@@ -2,7 +2,7 @@
 BO2_TOOL : 'true',
 BO1_TOOL : 'true',
 BO3_ZM : 'true',
-singup : 'false',
+singup : 'true',
 An:'true',
 txt : 'true',
 webman : 'true',
