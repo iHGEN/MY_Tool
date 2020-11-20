@@ -1,12 +1,12 @@
 // for int 
 //----------------------------
-// for define \n
-//------------------------------- \n
-main { \n\n
-}//end main \n
-function colorled(c,d,e,f) { \n
-set_led(LED_1,c);\n
-set_led(LED_2,d);\n
-set_led(LED_3,e);\n
-set_led(LED_4,f);\n
+// for define 
+//------------------------------- 
+main { 
+}//end main 
+function colorled(c,d,e,f) { 
+set_led(LED_1,c);
+set_led(LED_2,d);
+set_led(LED_3,e);
+set_led(LED_4,f);
 }\n
