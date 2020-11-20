@@ -2,7 +2,7 @@
 //----------------------------
 // for define \n
 //------------------------------- \n
-main { \n
+main { \n \n
 }//end main \n
 function colorled(c,d,e,f) { \n
 set_led(LED_1,c);\n
