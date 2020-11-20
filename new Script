@@ -1,0 +1,33 @@
+// for int
+int eneble_on_off = FALSE;
+//----------------------------
+// for define
+define FIRE_BTN   = PS4_R1; 
+define ADS_BTN    = PS4_L1; 
+define CROUCH_BTN = PS4_R3; 
+define SPRINT_BTN = PS4_L3; 
+define JUMP_BTN   = PS4_CROSS; 
+define NEXT_PIECE = PS4_R2; 
+define LEFT_BUMP  = PS4_L2; 
+define SWAP_BTN   = PS4_TRIANGLE; 
+define BUILD_BTN  = PS4_CIRCLE; 
+//-------------------------------
+main {
+if(get_val(PS4_L1) && event_press(PS4_LEFT))
+eneble_on_off =!eneble_on_off;
+if(eneble_on_off) 
+{
+colorled(0,0,2,0);
+}
+if(!eneble_on_off) 
+{
+colorled(0,2,0,0);
+}
+
+}//end main
+function colorled(c,d,e,f) {
+set_led(LED_1,c);
+set_led(LED_2,d);
+set_led(LED_3,e);
+set_led(LED_4,f);
+}
