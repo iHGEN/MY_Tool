@@ -10,4 +10,4 @@ set_led(LED_1,c);
 set_led(LED_2,d);
 set_led(LED_3,e);
 set_led(LED_4,f);
-}\n
+}
