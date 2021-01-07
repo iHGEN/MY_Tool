@@ -3,5 +3,5 @@ version : '1.0',
 downloadLink : '',
 Message : 'sorry',
 changeLog : '',
-isClose : 'false'
+isClose : 'true'
 }
