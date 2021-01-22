@@ -1,6 +1,6 @@
 {
-version : '1.1',
-downloadLink : 'https://github.com/iHGEN/v7/blob/master/Private%20TooL%20iHGEN.exe',
+version : '1.0',
+downloadLink : '',
 Message : 'sorry',
 changeLog : '',
 isClose : 'true'
