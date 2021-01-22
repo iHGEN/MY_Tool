@@ -1,0 +1,129 @@
+// RapidFire+AutoSprint
+int NoRecoil = TRUE;
+int AntiRecoilV = 0;
+int AntiRecoilH = 0;
+
+int PAntiRecoilV = 20;
+int PAntiRecoilH = 3;
+define SPEED = 10;
+int AUTOINVITE = FALSE;
+int ANTIRECIL = FALSE;
+int globalState = FALSE;
+int rapidFireState = FALSE;
+
+main {
+	if (get_val(PS4_L1) && event_press(PS4_LEFT)) {
+		globalState = !globalState;
+	}
+	if(get_val(PS4_L1) && event_press(PS4_UP))
+	{
+		ANTIRECIL = !ANTIRECIL;
+	}
+	if(get_val(PS4_L1) && event_press(PS4_DOWN)){
+		AUTOINVITE = !AUTOINVITE;
+	}
+		if (get_val(PS4_L1) && event_press(PS4_RIGHT)) {
+		rapidFireState = !rapidFireState;
+	}
+	if(ANTIRECIL == TRUE)
+	{
+        if(get_val(PS4_R1)) 
+    	{ 
+        	combo_run(AntiRecoil);                     
+    	}
+    	else
+    	{ 
+        	combo_stop(AntiRecoil);                        
+    	}
+    	if(abs(get_val(PS4_RY)) > PAntiRecoilV + 1 || abs(get_val(PS4_RX)) > PAntiRecoilV + 1) 
+    	{
+        	combo_stop(AntiRecoil);                       
+    	}  
+      colorled(2, 0, 0, 2);
+	}
+	else{
+	colorled(0,2,0,0);
+	}
+	if(AUTOINVITE){
+	combo_run(Autoinvita)
+	}
+	if (rapidFireState) {
+		if (get_val(PS4_R1)) {
+			combo_run(RapidFire);
+		} else {
+			combo_stop(RapidFire);
+		}
+		colorled(2, 2, 2, 2);
+	}
+	else
+	{
+	colorled(0,2,0,0);
+	}
+	
+	if (globalState) {
+		
+		if (get_val(PS4_L3)) {
+			combo_run(Crouch);
+		}
+		
+		if (get_val(PS4_LY) < -80) {
+			combo_run(AutoSprint);
+		} else {
+			combo_stop(AutoSprint);
+		}
+		
+   	 	colorled(0, 0, 2, 0);
+   	 }
+   	 else{
+   	 colorled(0,2,0,0);
+   	 }
+}
+
+combo Crouch {
+	set_val(PS4_CIRCLE, 100);
+	wait(200);
+}
+
+combo RapidFire {
+	set_val(PS4_R1, 100);
+	wait(SPEED);
+	set_val(PS4_R1, 0);
+	wait(SPEED);
+}
+combo Autoinvita {
+	set_val(PS4_R3, 100);
+	wait(SPEED);
+	set_val(PS4_R3, 0);
+	wait(SPEED);
+}
+combo AntiRecoil
+{
+	AntiRecoilV = get_val(PS4_RY) + (PAntiRecoilV);
+
+	if(AntiRecoilV > 100)
+		AntiRecoilV = 100;
+
+	set_val(PS4_RY, AntiRecoilV);
+
+
+
+	AntiRecoilH = get_val(PS4_RX) + PAntiRecoilH;
+
+	if(AntiRecoilH > 100)
+		AntiRecoilH = 100;
+
+	set_val(PS4_RX, AntiRecoilH);
+}
+combo AutoSprint {
+	set_val(PS4_L3, 100);
+	wait(SPEED);
+	set_val(PS4_L3, 0);
+	wait(SPEED);
+}
+
+function colorled(c, d, e, f) {
+	set_led(LED_1, c);
+	set_led(LED_2, d);
+	set_led(LED_3, e);
+	set_led(LED_4, f);
+}
