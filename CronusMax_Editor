@@ -1,7 +1,7 @@
 {
-version : '1.0',
-downloadLink : '',
+version : '1.1',
+downloadLink : 'https://github.com/iHGEN/MY_Tool/blob/master/CronusMax%20Editor.exe',
 Message : 'sorry',
-changeLog : '',
+changeLog : 'Fix bugs',
 isClose : 'true'
 }
