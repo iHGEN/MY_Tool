@@ -2,6 +2,6 @@
 version : '1.3',
 downloadLink : 'https://github.com/iHGEN/MY_Tool/blob/master/CronusMax_Editor_BY_iHGEN.exe',
 Message : 'sorry',
-changeLog : 'Bug fixes \nAdd new style for Script Details \nadd Anti Recoil with Editing And saving Function \nAdd A daily Message \nAdd new server for downloading Scripts \nCode improvements\nAdd Output text \nnow the App support Cronuszen\nAdded a new Web Library\n new desing for login tab',
+changeLog : 'Bug fixes \nAdd new style for Script Details \nadd Anti Recoil with Editing And saving Function \nAdd A daily Message \nAdd new server for downloading Scripts \nCode improvements\nAdd Output text \nnow the App support Cronuszen\nAdded a new Web Library\nnew desing for login tab',
 isClose : 'true'
 }
