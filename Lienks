@@ -1,6 +1,7 @@
 {
 BO2_TOOL : 'true',
 BO1_TOOL : 'true',
+tooloffset : 'true',
 BO3_ZM : 'true',
 singup : 'true',
 An:'true',
