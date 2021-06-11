@@ -2,6 +2,6 @@
 version : '1.3',
 downloadLink : 'https://github.com/iHGEN/MY_Tool/blob/master/Stream.exe',
 Message : 'sorry',
-changeLog : 'Add new website\nCode improvments\nRelative Anime for Anime Cloud\nAdd new Multiple Download \nUI improvments\nBugs fix\performance improvements',
+changeLog : 'Add new website\nCode improvments\nRelative Anime for Anime Cloud\nAdd new Multiple Download \nUI improvments\nBugs fix\nperformance improvements',
 isClose : 'true'
 }
