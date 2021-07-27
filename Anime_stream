@@ -1,7 +1,7 @@
 {
-version : '1.3',
-downloadLink : 'https://github.com/iHGEN/MY_Tool/blob/master/Stream.exe',
+version : '1.4',
+downloadLink : 'https://github.com/iHGEN/MY_Tool/blob/master/Anime%20Stream.exe',
 Message : 'sorry',
-changeLog : 'Add new website\nCode improvments\nRelative Anime for Anime Cloud\nAdd new Multiple Download \nUI improvments\nBugs fix\nperformance improvements',
+changeLog : 'Add new website\nCode improvments\nRelative Anime for Anime Cloud\nAdd new Multiple Download \nUI improvments\nBugs fix\nperformance improvements\nadd main last for anime\nadd feedback\nadd refresh database\nadd login page\nCustomize your style\nadd backup database\n',
 isClose : 'true'
 }
