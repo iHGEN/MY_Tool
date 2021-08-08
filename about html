@@ -1,6 +1,7 @@
 <html>
 <head>
 <meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>About me</title>
 <style>
 body{
@@ -28,10 +29,11 @@ color:#00AAAA;
 <h3>سيرفرات البرنامج</h3>
 <h3 style="color:00D202;">شغالة</h3>
 <h3 class="first">حساباتي على مواقع التواصل</p>
-<a href="https://www.instagram.com/dkd/" target="_blank"><img src="https://www.instagram.com/static/images/ico/apple-touch-icon-76x76-precomposed.png/666282be8229.png"/></a>
-<a href="https://twitter.com/iHGEN" target="_blank"><img src="https://www.mediafire.com/convkey/5a9f/nl06f2ftp4gnnqw9g.jpg?size_id=8" width="76" height="76"/></a>
+<a href="https://www.instagram.com/dkd/" target="_top"><img src="https://www.instagram.com/static/images/ico/apple-touch-icon-76x76-precomposed.png/666282be8229.png"/></a>
+<a href="https://twitter.com/iHGEN" target="_top"><img src="https://www.mediafire.com/convkey/5a9f/nl06f2ftp4gnnqw9g.jpg?size_id=8" width="76" height="76"/></a>
 <br/>
 <br/>
-<a class="linkcolor" href="">الروابط التي تدعم التحميل المباشر في البرنامج</a>
+<h3 class="first">الي حاب يدعمني هذا رابط الدعم</h3>
+<a href="https://www.paypal.com/paypalme/iHGEN" target="_top"><img src="https://www.mediafire.com/convkey/74a9/05krvbjgrxmx2zs9g.jpg"width="120" height="76"/></a>
 </body>
 </html>
