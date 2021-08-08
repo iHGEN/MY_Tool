@@ -17,17 +17,29 @@ color:#3537C8;
 .linkcolor{
 color:#00AAAA;
 }
+.bordercolor{
+border-color: #FFFFFF;
+}
+.linkcolor{
+color:#00AAAA;
+}
 </style>
 </head>
 <body align="center">
 <h1 class="headcolor">About me</h1>
 <hr/>
 <p class="first">مبرمج مبتدأ وانسان اعشق البرمجة وسويت هذا العمل البسيط لكم واتمنى انه يعجبكم وراح استمر بتطوير البرنامج بس ابي اشوف دعمكم</p>
-<br/>
 <h3 class="first">اي مشكلة تواجهكم بالبرنامج تقدرون تسون بلاغ للمشكلة من البرنامج نفسه</h3>
 <img src="https://www.mediafire.com/convkey/0a92/0t98pd66v79ojyozg.jpg"/>
 <h3>سيرفرات البرنامج</h3>
 <h3 style="color:00D202;">شغالة</h3>
+<br/>
+<table class="bordercolor" border="1" align="center">
+<tr><td class="linkcolor" style="text-align:center; color:#FF0020;"><h3>الروابط الي تدعم التحميل المباشر</h3></td></tr>
+<tr><td class="linkcolor" style="text-align:center;">Mediafire</td></tr>
+<tr><td class="linkcolor" style="text-align:center;">GooGleDrive</td></tr>
+<tr><td class="linkcolor" style="text-align:center;">Blkom</td></tr>
+</table>
 <h3 class="first">حساباتي على مواقع التواصل</p>
 <a href="https://www.instagram.com/dkd/" target="_top"><img src="https://www.instagram.com/static/images/ico/apple-touch-icon-76x76-precomposed.png/666282be8229.png"/></a>
 <a href="https://twitter.com/iHGEN" target="_top"><img src="https://www.mediafire.com/convkey/5a9f/nl06f2ftp4gnnqw9g.jpg?size_id=8" width="76" height="76"/></a>
