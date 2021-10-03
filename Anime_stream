@@ -1,7 +1,7 @@
 {
-version : '1.4',
+version : '1.5',
 downloadLink : 'https://github.com/iHGEN/MY_Tool/blob/master/Anime%20Stream.exe',
 Message : 'sorry',
-changeLog : 'Add new website\nCode improvments\nRelative Anime for Anime Cloud\nAdd new Multiple Download \nUI improvments\nBugs fix\nperformance improvements\nadd main last for anime\nadd feedback\nadd refresh database\nadd login page\nCustomize your style\nadd backup database\n',
+changeLog : 'Add new website\nCode improvments\nRelative Anime for Anime Cloud\nAdd new Multiple Download \nUI improvments\nBugs fix\nperformance improvements\nadd main last for anime\nadd feedback\nadd refresh database\nadd login page\nCustomize your style\nadd backup database\nAdd Auto Login\nfix animeblkom Server\nnow the program will be faster 20% than befor\nAdd doenload Anime for Anime4up & Animecloud',
 isClose : 'true'
 }
