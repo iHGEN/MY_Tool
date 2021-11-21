@@ -1,7 +1,7 @@
 {
-version : '1.6',
-downloadLink : 'https://github.com/iHGEN/MY_Tool/blob/master/Anime_Scraping_BY_iHGEN.exe',
+version : '1.7',
+downloadLink : 'https://github.com/iHGEN/MY_Tool/blob/master/Anime%20Stream.exe',
 Message : 'sorry',
-changeLog : 'Add new website\nCode improvments\nRelative Anime for Anime Cloud\nAdd new Multiple Download \nUI improvments\nBugs fix\nperformance improvements\nadd main last for anime\nadd feedback\nadd refresh database\nadd login page\nCustomize your style\nadd backup database\nAdd Auto Login\nfix animeblkom Server\nnow the program will be faster 20% than befor\nAdd download Anime for Anime4up & Animecloud\n RGB Light \nadd new website\ngenral fix\nadd new progres for the command \nadd new command button\n add deily message \nfix when someone update database give you error and remove backup data',
+changeLog : 'Add new website\nCode improvments\nRelative Anime for Anime Cloud\nAdd new Multiple Download \nUI improvments\nBugs fix\nperformance improvements\nadd main last for anime\nadd feedback\nadd refresh database\nadd login page\nCustomize your style\nadd backup database\nAdd Auto Login\nfix animeblkom Server\nnow the program will be faster 20% than befor\nAdd download Anime for Anime4up & Animecloud\n RGB Light \nadd new website\ngenral fix\nadd new progres for the command \nadd new command button\n add deily message \nfix when someone update database give you error and remove backup data\nAdd Multiple Download for witanime',
 isClose : 'true'
 }
