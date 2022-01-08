@@ -5,7 +5,7 @@ pass : 'ꍻꎛꍮꍲꍱꍯꍬꍫ',
 AppLink1Anime : 'https://1drv.ms/u/s!AonQEmFmAXmVgQZNN9HChYEMqoHp?e=98hBNq',
 AppLink2Anime : 'https://drive.google.com/file/d/1J-ziHK41XkupUBGSPGlvdr9waziYWtT0/view?usp=sharing',
 Switchweb : 'true',
-Dailymes : 'false'
+Dailymes : 'false',
 url :'https://www.calendardate.com/todays.htm',
 path :'//td[@id='tprg']'
 }
