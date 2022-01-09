@@ -7,5 +7,5 @@ AppLink2Anime : 'https://drive.google.com/file/d/1J-ziHK41XkupUBGSPGlvdr9waziYWt
 Switchweb : 'true',
 Dailymes : 'false',
 url :'https://www.calendardate.com/todays.htm',
-path :'//tr[8]/td[2][@id=\tprg\]'
+path :'//tr[8]/td[2][@id=\ntprg\n]'
 }
