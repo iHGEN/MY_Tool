@@ -1,4 +1,4 @@
 0;https://w1.anime4up.com/;/html/body/div[5]/div/div[2]/nav/ul/li[5]/a;//*[@id=|menu-item-100|]/a
-1;https://video.cloud-anime.com/%d9%85%d8%b3%d9%84%d8%b3%d9%84%d8%a7%d8%aa-%d8%a7%d9%86%d9%85%d9%8a/page/;/html/body/div[5]/div/div[2]/nav/ul/li[5]/a
-2;https://witanime.com/%D9%82%D8%A7%D8%A6%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D9%85%D9%8A/page/;/html/body/div[5]/div/div[2]/nav/ul/li[5]/a
-3;https://animeblkom.net/anime-list?page=;/html/body/section[5]/div/div[2]/ul/li[12]/a
+1;https://video.cloud-anime.com/;/html/body/div[5]/div/div[2]/nav/ul/li[5]/a;//*[@id=|menu-item-1919|]/a
+2;https://witanime.com/;/html/body/div[5]/div/div[2]/nav/ul/li[5]/a;//*[@id=|menu-item-48|]/a
+3;https://animeblkom.net/;/html/body/section[5]/div/div[2]/ul/li[12]/a;//*[@id=|bs-example-navbar-collapse-1|]/ul/li[1]/a[1]
