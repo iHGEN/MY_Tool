@@ -1,75 +1,293 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About me</title>
-<style>
-body{
-    background-image: url('https://www.mediafire.com/convkey/18c0/69i63ax1ieifmwq9g.jpg');
-    background-repeat: no-repeat;
-    background-size: 1920px;
-font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>About me</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
-.img {
-  width: 1920px;
-  height: 1080px;
+header{
+    background-color: #F0F0F0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
 }
-#body{
-height: 100%;
-width: 100%;
+.logo{
+    color: #B71229;
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: 700;
 }
-.first{
-color:cyan;
-font-size:15pt;
+.navi a{
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #B71229;
+    padding-left: 30px;
 }
-.headcolor{
-color:#3537C8;
+.navi a:hover{
+    color: #72121D;
 }
-.linkcolor{
-color:#00AAAA;
+section{
+    padding: 100px 100px;
 }
-.bordercolor{
-border-color: #FFFFFF;
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url('https://www.mediafire.com/convkey/98a3/5bq0rqeknc5fwff9g.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
-td{
-    text-align:center;
-    color:cyan;
-    width: 200px;
-    height: 30px;
-    border:black solid 2px;
-    font-size: large;
-    font:bolder;
+.main h2{
+font-size: 1.4em;
+font-weight: 500;
+color: #18133B;
 }
-.headtext{
-    color:cyan;
-    text-align:center;
-    line-height: 25px;
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #23179D;
+    font-size: 1.8em;
+font-weight: 700;
 }
-</style>
+.main-btn{
+    color: #000;
+    background-color:#B71229;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    transition: 0.7s ease;
+}.main-btn:hover{
+    background-color: #8A1229;
+    transform: scale(1.1);
+}
+.icon a{
+    color: #fff;
+    font-size: 2em;
+    padding-right: 30px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #B71229;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1/15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icons {
+    color: #B71229;
+    font-size: 8em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+    color: #FF0020;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin: 10px;
+}
+.detials{
+    color: #000;
+    font-size: 0.7em;
+    font-weight: 200;
+    margin: 10px;
+    text-align: left;
+}
+.title-info{
+    text-align: center;
+    color: #FF0020;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin: 10px;
+}
+.icon-paypal a{
+    color: #104DCB;
+    font-size: 5em;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+}
+.store{
+    margin-top: 160px;
+}
+.contact-card{
+    margin-top: 140px;
+}
+.icons-contact a{
+    display: inline-block;
+    color: #B71229;
+    font-size: 8em;
+    margin-left: 90px;
+}
+    </style>
 </head>
-<body align="center">
-<h1 class="headcolor">About me</h1>
-<hr/>
-<p class="first">مبرمج مبتدأ وانسان اعشق البرمجة وسويت هذا العمل البسيط لكم واتمنى انه يعجبكم وراح استمر بتطوير البرنامج بس ابي اشوف دعمكم<br><br>
-    اي مشكلة تواجهكم بالبرنامج تقدرون تسون بلاغ للمشكلة من البرنامج نفسه
-</p>
-<img src="https://www.mediafire.com/convkey/0a92/0t98pd66v79ojyozg.jpg"/>
-<h3 style="color:black">سيرفرات البرنامج</h3>
-<h3 style="color:#186319;">شغالة</h3>
-<br/>
-<table align="center">
-    <caption><h3 style="color:teal;">الروابط الي تدعم التحميل المباشر</h3></caption>
-    <td>MediaFire</td>
-    <td>GoogleDrive</td>
-    <td>Blkom</td>
-</table>
-<h3 class="first">حساباتي على مواقع التواصل</p>
-<a href="https://www.instagram.com/dkd/" target="_blank"><img src="https://www.instagram.com/static/images/ico/apple-touch-icon-76x76-precomposed.png/666282be8229.png"/></a>
-<a href="https://twitter.com/iHGEN" target="_blank"><img src="https://www.mediafire.com/convkey/5a9f/nl06f2ftp4gnnqw9g.jpg?size_id=8" width="76" height="76"/></a>
-<br/>
-<br/>
-<h3 class="first">الي حاب يدعمني هذا رابط الدعم</h3>
-<a href="https://www.paypal.com/paypalme/iHGEN" target="_blank"><img src="https://www.mediafire.com/convkey/74a9/05krvbjgrxmx2zs9g.jpg"width="120" height="76"/></a>
+<body>
+    <header >
+        <a href="#"class="logo">Anime Stream</a>
+        <nav class="navi">
+            <a href="#About me">About me</a>
+            <a href="#support">Support link ?</a>
+            <a href="#Store">Store</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="main" id="About me">
+    <div>
+        <h2>Hi I'm Hatem<br><span>I'm A simlpe Developer  i made this work for all type of people i hope this work will be useful all i need is your Support</span></h2>
+        <a href="https://www.youtube.com/channel/UCh1kCRud35n_bljBJh41klQ"class="main-btn" target="_blank">My channel</a>
+        <div class="icon">
+            <a href="https://twitter.com/iHGEN" target="_blank"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://www.instagram.com/dkd/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+    </section>
+
+    <section class="cards" id="support">
+     <h2 class=title>Support link</h2>
+     <div class="content">
+<div class="card">
+<div class="icons">
+<i class="fab fa-google-drive"></i>
+</div>
+<div class="info">
+    <h2>Google Drive</h2>
+</div>
+</div>
+<div class="card">
+    <div class="icons">
+        <i class="fas fa-download"></i>
+    </div>
+    <div class="info">
+        <h2>MediaFire</h2>
+    </div>
+    </div>
+    <div class="card">
+        <div class="icons">
+            <i class="fas fa-cloud"></i>
+        </div>
+        <div class="info">
+            <h2>OneDrive</h2>
+        </div>
+        </div>
+        <div class="card">
+            <div class="icons">
+                <i class="fab fa-github"></i>
+            </div>
+            <div class="info">
+                <h2>GitHub</h2>
+            </div>
+            </div>
+     </div>
+    </section>
+    <section class="store" id="Store">
+        <h2 class="title">Store</h2>
+        <div class="content">
+            <div class="card">
+                <div class="title-info">
+                    <h2>1 Month 3$</h2>
+                </div>
+                <div class="detials">
+                    <h2>
+                        1. you will have 4+ website and more <br>
+                2. You Can Download Multiple Episode At Once <br>
+                3. You Have Support Customer 24/7 <br>
+                4. Add Any Future You Want if i Can 
+                    </h2>
+                </div>
+                </div>
+                <div class="card">
+                    <div class="title-info">
+                        <h2>3 Month 6$</h2>
+                    </div>
+                    <div class="detials">
+                        <h2>
+                            1. you will have 4+ website and more <br>
+                    2. You Can Download Multiple Episode At Once <br>
+                    3. You Have Support Customer 24/7 <br>
+                    4. Add Any Future You Want if i Can 
+                        </h2>
+                    </div>
+                    </div>
+                    <div class="card">
+                        <div class="title-info">
+                            <h2>6 Month 12$</h2>
+                        </div>
+                        <div class="detials">
+                            <h2>
+                                1. you will have 4+ website and more <br>
+                        2. You Can Download Multiple Episode At Once <br>
+                        3. You Have Support Customer 24/7 <br>
+                        4. Add Any Future You Want if i Can 
+                            </h2>
+                        </div>
+                        </div> 
+        </div>
+        <div class="icon-paypal">
+            <a href="https://www.paypal.com/paypalme/iHGEN" target="_balmk"><i class="fab fa-cc-paypal"></i></a>
+        </div>
+    </section>
+    <section class="contact-card" id="Contact">
+        <h2 class="title">Contact</h2>
+<div class="content">
+    <div class="card">
+        <div class="icons-contact">
+            <a href="https://twitter.com/iHGEN" target="_blank"><i class="fab fa-twitter-square"></i></a>
+        </div>
+        <div class="title">
+            <h2>Tiwtter</h2>
+        </div>
+        </div>
+        <div class="card">
+            <div class="icons-contact">
+                <a href="https://www.instagram.com/dkd/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="title">
+                <h2>Instagram</h2>
+            </div>
+            </div>
+</div>
+    </section>
 </body>
 </html>
