@@ -18,5 +18,9 @@ Anime4up :'https://anime4up.art/',
 AnimeCloud :'https://ar.cloud-anime.com/',
 WitAnime :'https://witanime.com/',
 Animeblkom :'https://animeblkom.net/',
-no_image :'https://www.mediafire.com/file/zmpwfim6jhs96hg/no-image.jpg/file'
+no_image :'https://www.mediafire.com/file/zmpwfim6jhs96hg/no-image.jpg/file',
+eid_image :'https://www.mediafire.com/file/mhwjoiq9r80d3ea/eid-adha-mubarek.gif/file',
+enable_eid_image :'false',
+text_rgb :'كل عام وانتم بخير',
+enable_everything :'false'
 }
