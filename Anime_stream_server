@@ -20,7 +20,7 @@ WitAnime :'https://witanime.com/',
 Animeblkom :'https://animeblkom.net/',
 no_image :'https://www.mediafire.com/file/zmpwfim6jhs96hg/no-image.jpg/file',
 eid_image :'https://www.mediafire.com/file/mhwjoiq9r80d3ea/eid-adha-mubarek.gif/file',
-enable_eid_image :'true',
+enable_eid_image :'false',
 text_rgb :'',
 enable_everything :'false',
 is_left :'false'
