@@ -1,7 +1,7 @@
 {
-  "Version": 3.4,
-  "DownloadLink": "https://www.mediafire.com/file/im6tbkmosy1rjzs/Stream_By_iHGEN.exe/file",
-  "Message": "sorry",
-  "ChangeLog": "1.0v\nAdd new website\nCode improvements\n...",
-  "IsClose": true
+    "ChangeLog": "new ver",
+    "downloadLink": "https://raw.githubusercontent.com/iHGEN/MY_Tool/master/unity_test",
+    "isClose": true,
+    "Message": "test",
+    "version": 1.0
 }
